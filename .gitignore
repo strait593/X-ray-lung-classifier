@@ -1,0 +1,45 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Local environment and build artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Model weights and generated outputs
+*.h5
+*.keras
+*.pkl
+
+# Large binary assets
+archive.zip
+
+# IDE settings
+.vscode/
+.idea/
+
+# Local project data and large generated artifacts
+TRAIN_*/
+TEST_*/
+models/
+data/
+single prediction/
+
+# Train/test folders
+TRAIN_*/
+TEST_*/
+data/
+models/
+
+# Prior project snippet
+misc/
+notebooks/
